@@ -19,7 +19,7 @@ public class Main {
                 confidence_score = input.nextInt();
 
                 if (kcse_grades >= 65) {
-                    if((interview_score >=6) && (confidence_score>=5))
+                    if((interview_score >=6) || (confidence_score>=5))
                     {
                         System.out.println("\nSTUDENT SCORES ARE: ");
                         System.out.println("\nKCSE GRADES: " +kcse_grades);
